@@ -8,7 +8,9 @@
     background-size: auto 50px;
     background-repeat: no-repeat;
     background-position: center; 
-    box-shadow: -1px -1px 0px 0px grey inset;
+    box-sizing: border-box;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .header-div {
@@ -32,4 +34,20 @@
 
 #header-user-name{
   float: right;
+}
+
+#left-menu{
+  box-sizing: border-box;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.menu-item {
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.strong {
+  font-weight: bold;
 }
