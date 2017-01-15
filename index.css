@@ -1,0 +1,35 @@
+.shadow {
+  box-shadow: 0px 0px 1px 1px black inset;
+}
+
+#company-logo {
+    background-image: url("/static/company-logo.png");
+    min-height : 75px;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    box-shadow: -1px -1px 0px 0px grey inset;
+}
+
+.header-div {
+  height: 25px;
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#header-user-info{
+  text-align: center;
+}
+
+#header-user-name{
+  float: right;
+}
